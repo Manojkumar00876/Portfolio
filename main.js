@@ -15,6 +15,6 @@ var typed = new Typed('.typer', {
         Subject : "This is the subject",
         Body : document.getElementById("subject")
     }).then(
-      message => alert(message)
+      message => alert("Thank you")
     );
   }
